@@ -20,7 +20,7 @@ async def chuck(ctx):
     description = f"`{chuck_norris_joke}`",
     color = discord.Colour.random())
     embed.set_thumbnail(url = "https://cdn2.hubspot.net/hubfs/2264894/cmas-blog/chuck%20norris%20blog/chuck-3.jpg")
-    embed.set_footer(text="Your Server Here")
+    embed.set_footer(text="Your Server Name Here")
     embed.timestamp = datetime.utcnow()
     await ctx.message.delete()
     await  ctx.send(embed=embed)
